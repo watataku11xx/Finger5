@@ -61,10 +61,6 @@ footer div{
 	justify-content: center;
 }
 
-/* FACEBOOKアイコンの角丸修正 */
-/* footer #facebook{
-	
-} */
 
 #footer_text{
 	font-size: 20px;
@@ -83,6 +79,6 @@ li a:hover{
 	background-color: white;
 }
 
-footer img{
+#facebook img{
 	border-radius: 50%;
 }

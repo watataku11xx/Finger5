@@ -5,17 +5,22 @@ header img{
 
 h1{	
 	text-align: center;
-	/* vertical-align: center; */
 	font-size: 60px;
-	width: 100%;
 	background-color: gainsboro;
-	/* font-family: ; */
+	border:double 10px black;
+}
+
+body{
+	background-color: gainsboro;
 }
 
 
 h2 {
-	/* font-size: 4vw; */
 	font-size: 30px;
+}
+
+section p{
+	font-size: 20px;
 }
 
 main section img{
@@ -25,6 +30,7 @@ main section img{
 
 main section{
 	text-align: center;
+
 }
 
 h1{
@@ -35,8 +41,8 @@ footer{
 	background-color: gray;
 }
 
-footer img{
-	border-radius: 70px;
+footer p{
+	text-align: center;
 }
 
 .flex-container{
@@ -44,4 +50,39 @@ footer img{
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.flex-item-text{
+	margin-left: 20px;
+}
+
+footer div{
+	display: flex;
+	justify-content: center;
+}
+
+/* FACEBOOKアイコンの角丸修正 */
+/* footer #facebook{
+	
+} */
+
+#footer_text{
+	font-size: 20px;
+}
+
+hr{
+	width: 70%;
+	border-top: 2px dashed black;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a:hover{
+	background-color: white;
+}
+
+footer img{
+	border-radius: 50%;
 }

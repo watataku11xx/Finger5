@@ -1,0 +1,23 @@
+header img{
+	width: 100%;
+	height: auto;
+	opacity: 0.5;
+}
+
+header h1{	
+	text-align: center;
+	vertical-align: center;
+	font-size: 80px;	
+}
+
+h1{
+	text-align: center;
+}
+
+footer{
+	background-color: blanchedalmond;
+}
+
+footer img{
+	border-radius: 70px;
+}

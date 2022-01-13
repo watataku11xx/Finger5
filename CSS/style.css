@@ -1,13 +1,30 @@
 header img{
 	width: 100%;
 	height: auto;
-	opacity: 0.5;
 }
 
-header h1{	
+h1{	
 	text-align: center;
-	vertical-align: center;
-	font-size: 80px;	
+	/* vertical-align: center; */
+	font-size: 60px;
+	width: 100%;
+	background-color: gainsboro;
+	font-family: ;
+}
+
+
+h2 {
+	/* font-size: 4vw; */
+	font-size: 30px;
+}
+
+main section img{
+	width: 10vw;
+	height: auto;
+}
+
+main section{
+	text-align: center;
 }
 
 h1{
@@ -15,9 +32,16 @@ h1{
 }
 
 footer{
-	background-color: blanchedalmond;
+	background-color: gray;
 }
 
 footer img{
 	border-radius: 70px;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }

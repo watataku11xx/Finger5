@@ -154,3 +154,6 @@ li{
 	 background:#333;/*ドットボタンの現在地表示の色*/
  }
  
+iframe{
+	margin-bottom: 20px;
+}

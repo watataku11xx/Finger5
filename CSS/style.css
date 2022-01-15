@@ -15,11 +15,26 @@ main{
 	margin-right: auto;
 }
 
+section{
+	/* margin-right: 500px; */
+}
+
+iframe{
+	margin:50px;
+	/* margin-top: 50px; */
+}
+
+#flexbox_part{
+	display: flex;
+	justify-content: flex-end;
+}
+
 h1{	
 	font-size: 3vw;
 	background-color: gainsboro;
 	border:double 10px black;
-	margin-top: 10px;
+	margin: 20px auto;
+	width: 70%;
 }
 
 h2 {

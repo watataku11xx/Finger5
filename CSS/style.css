@@ -39,6 +39,7 @@ h2 {
 section p{
 	font-size: 20px;
 }
+
 section{
 	margin-left: 50px;
 }
@@ -67,13 +68,9 @@ footer p{
 	margin-left: 200px;
 }
 
-footer div{
-	display: flex;
-	justify-content: center;
-}
-
 #footer_text{
 	font-size: 20px;
+	margin-bottom: 30px;
 }
 
 hr{

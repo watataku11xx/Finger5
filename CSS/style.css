@@ -10,18 +10,13 @@ body{
 }
 
 main{
-	width: 70%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-section{
-	/* margin-right: 500px; */
-}
-
 iframe{
 	margin:50px;
-	/* margin-top: 50px; */
 }
 
 #flexbox_part{
@@ -44,11 +39,8 @@ h2 {
 section p{
 	font-size: 20px;
 }
-
-main section img{
-	width: 7vw;
-	height: auto;
-	min-width: 60px;
+section{
+	margin-left: 50px;
 }
 
 footer{
@@ -62,12 +54,17 @@ footer p{
 .flex-container{
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
+	/* justify-content: center; */
 }
 
 .flex-item-text{
 	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 520;
+}
+
+.flex-item-img{
+	margin-left: 200px;
 }
 
 footer div{
@@ -75,13 +72,12 @@ footer div{
 	justify-content: center;
 }
 
-
 #footer_text{
 	font-size: 20px;
 }
 
 hr{
-	width: 70%;
+	width: 80%;
 	border-top: 2px dashed black;
 }
 
@@ -118,9 +114,23 @@ iframe{
 	top: 0px;
 }
 
+.album_text{
+	color: #333;
+	text-align: center;
+	position: relative;
+	top: 50px;
+	font-size: 30px;
+	font-weight: 1000;
+}
+
+.slider p{
+	font-size: 40px;
+	font-weight: 1200;
+}
+
 /* スライダーのためのCSSこれより下ほぼコピペ*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
-	width: 80%;
+	width: 65%;
 	margin:0 auto;
  }
  

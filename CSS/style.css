@@ -1,74 +1,64 @@
+#header_img{
+	width: 100%;
+	height: auto;
+}
+
 body{
 	background-color: gainsboro;
 	text-align: center;
 	width: 100%;
 }
 
-#header_img{
+#album-section{
 	width: 100%;
-	height: auto;
-}
-
-main{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-iframe{
-	margin:50px;
+	margin: auto;
 }
 
 #flexbox_part{
 	display: flex;
-	justify-content: flex-end;
 }
 
 h1{	
 	font-size: 3vw;
-	background-color: gainsboro;
 	border:double 10px black;
 	margin: 20px auto;
 	width: 70%;
 }
 
 h2 {
-	font-size: 30px;
-}
+	font-size: 2.5vw;
+}	
 
-section p{
-	font-size: 20px;
-}
-
-section{
-	margin-left: 50px;
-}
-
-footer{
-	background-color: gray;
-}
-
-footer p{
-	margin: unset;
+#member-section{
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 0.8;
+	width: 800px;
 }
 
 .flex-container{
 	display: flex;
 	flex-direction: row;
-	/* justify-content: center; */
+	text-align: start;
+}
+
+.flex-item-img img{
+	border-radius: 5%;
 }
 
 .flex-item-text{
-	margin-left: 20px;
+	margin-left: 5%;
 	font-size: 20px;
 	font-weight: 520;
 }
 
-.flex-item-img{
-	margin-left: 200px;
+iframe{
+	margin-left: auto;
+	margin-right: auto;
+	flex-grow: 0;
 }
 
-#footer_text{
+#footer-text{
 	font-size: 20px;
 	margin-bottom: 30px;
 }
@@ -78,8 +68,12 @@ hr{
 	border-top: 2px dashed black;
 }
 
-ul{
-	list-style-type: none;
+footer{
+	background-color: gray;
+}
+
+footer p{
+	margin: unset;
 }
 
 li{
@@ -93,10 +87,6 @@ li{
 	margin-right: 30px;
 	width: 50px;
 	height: 50px;
-}
-
-iframe{
-	margin-bottom: 20px;
 }
 
 #footer_sns{
@@ -113,19 +103,19 @@ iframe{
 
 .album_text{
 	color: #333;
-	text-align: center;
+	text-align: cent	er;
 	position: relative;
-	top: 50px;
-	font-size: 30px;
-	font-weight: 1000;
+	top: 20px;
+	font-size: 20px;
+	font-weight: 800;
 }
 
+/* スライダーのためのCSSこれより下ほぼコピペ*/
 .slider p{
 	font-size: 40px;
 	font-weight: 1200;
 }
 
-/* スライダーのためのCSSこれより下ほぼコピペ*/
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
 	width: 65%;
 	margin:0 auto;

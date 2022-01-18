@@ -34,12 +34,12 @@ h2 {
 	margin-right: auto;
 	flex-grow: 0.8;
 	width: 800px;
+	height: auto;
 }
 
 .flex-container{
 	display: flex;
 	flex-direction: row;
-	text-align: start;
 }
 
 .flex-item-img img{
@@ -51,6 +51,7 @@ h2 {
 	font-weight: 520;
 	width: 1350px;
 	margin: 0% 0% 0% 5%;
+	text-align: start;
 }
 
 iframe{

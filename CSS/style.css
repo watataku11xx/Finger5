@@ -1,33 +1,30 @@
-#header_img{
-	width: 100%;
-	height: auto;
+html{
+	font-size: 18	px;
 }
 
 body{
 	background-color: gainsboro;
 	text-align: center;
-	width: 100%;
-}
-
-#album-section{
-	width: 100%;
+	width: 1200px;
 	margin: auto;
 }
 
-#flexbox_part{
+#header_img{
+	width: 1200px;
+}
+
+main{
+	width: 830px;
+	margin-right: auto;
+}
+
+#sidebar{
+	margin-left: auto;
+}
+
+#flexbox_main{
 	display: flex;
 }
-
-h1{	
-	font-size: 3vw;
-	border: double 10px black;
-	margin: 20px auto;
-	width: 70%;
-}
-
-h2 {
-	font-size: 2.5vw;
-}	
 
 #member-section{
 	margin-left: auto;
@@ -35,6 +32,25 @@ h2 {
 	flex-grow: 0.8;
 	width: 800px;
 	height: auto;
+}
+
+h1{	
+	font-size: 2.0rem;
+	border: double 10px black;
+	margin: 20px auto;
+}
+
+h2 {
+	text-align: start;
+	font-size: 1.3rem;
+}
+
+#album-section{
+	margin: auto;
+}
+
+#flexbox_part{
+	display: flex;	
 }
 
 .flex-container{
@@ -47,17 +63,11 @@ h2 {
 }
 
 .flex-item-text{
-	font-size: 1.5vw;
+	font-size: 1.0rem;
 	font-weight: 520;
 	width: 1350px;
 	margin: 0% 0% 0% 5%;
 	text-align: start;
-}
-
-iframe{
-	margin-left: auto;
-	margin-right: auto;
-	flex-grow: 0;
 }
 
 #footer-text{
@@ -66,7 +76,6 @@ iframe{
 }
 
 hr{
-	width: 80%;
 	border-top: 2px dashed black;
 }
 
@@ -76,6 +85,7 @@ footer{
 
 footer p{
 	margin: unset;
+	/* vertical-align: auto; */
 }
 
 li{
@@ -97,22 +107,19 @@ li{
 	text-align: right;
 }
 
-.album_text{
-	color: #333;
-	position: relative;
-	top: 20px;
-	font-size: 1.5vw;
-	/* font-weight: 800; */
-}
-
 /* スライダーのためのCSSこれより下ほぼコピペ*/
 .slider p{
-	font-size: 2.0vw;
-	font-weight: 1200;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.album_text{
+	color: #333;
+	font-size: 1.0rem;
 }
 
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
-	width: 65%;
+	width: 700px;
 	margin:0 auto;
  }
  

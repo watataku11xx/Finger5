@@ -9,6 +9,16 @@ body{
 	margin: auto;
 }
 
+header div{
+	position: relative;
+}
+
+#header_text_img{
+	position: absolute;
+	top: 150px;
+	left: 60px;
+}
+
 main{
 	width: 830px;
 	margin-right: auto;
@@ -30,13 +40,13 @@ main{
 	height: auto;
 }
 
-h1{	
+h2{	
 	font-size: 2.0rem;
 	border: double 10px black;
 	margin: 20px auto;
 }
 
-h2 {
+h3{
 	text-align: start;
 	font-size: 1.3rem;
 }

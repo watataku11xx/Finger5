@@ -2,8 +2,19 @@ html{
 	font-size: 18px;
 }
 
+header div{
+	position: relative;
+}
+
 #header_img{
     width: 100vw;
+}
+
+#header_text_img{
+	position: absolute;
+	width: 45vw;
+	left: 5.5%;
+	top: 40%;
 }
 
 body{
@@ -16,13 +27,13 @@ main{
     margin: 0% 3%;
 }
 
-h1{	
+h2{	
 	font-size: 1.8rem;
 	border: double 10px black;
 	margin: 20px auto;
 }
 
-h2 {
+h3{
 	text-align: start;
 	font-size: 1.2rem;
 }

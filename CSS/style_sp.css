@@ -7,7 +7,7 @@ header div{
 }
 
 #header_img{
-    width: 100vw;
+  width: 100vw;
 }
 
 #header_text_img{
@@ -30,7 +30,7 @@ main{
 h2{	
 	font-size: 1.8rem;
 	border: double 10px black;
-	margin: 0px auto;
+	margin: 10px auto;
 }
 
 h3{
@@ -54,7 +54,7 @@ hr{
 }
 
 iframe{
-    width: 400px;
+  width: 400px;
 }
 
 footer{
@@ -76,13 +76,13 @@ footer{
 }
 
 #footer_text{
-    font-size: 1.0rem;
-    margin-bottom: 1%;
+  font-size: 1.0rem;
+   margin-bottom: 1%;
 }
 
 #copy_right{
-    font-size: 0.7rem;
-    margin: 0px;
+  font-size: 0.7rem;
+  margin: 0px;
 }
 
 .slider p{
@@ -101,12 +101,12 @@ footer{
  }
 
  .slider img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .slider .slick-slide {
-    margin:0px 10px;
+  margin:0px 10px;
 }
 
 

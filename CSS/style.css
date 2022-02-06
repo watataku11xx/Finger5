@@ -26,6 +26,7 @@ main{
 
 #sidebar{
 	margin-left: auto;
+	margin-top: 10px;
 }
 
 #flexbox_main{
@@ -43,7 +44,7 @@ main{
 h2{	
 	font-size: 2.0rem;
 	border: double 10px black;
-	margin: 0px auto;
+	margin: 10px auto;
 }
 
 h3{
